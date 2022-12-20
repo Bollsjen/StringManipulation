@@ -12,7 +12,6 @@ const AppContainer = (props) => {
 
 const styles = StyleSheet.create({
     appContainer: {
-        paddingTop: 42,
         backgroundColor: '#AFAFAF',
         height: '100%'
     }

@@ -28,7 +28,7 @@ export default function App() {
   }
 
   return (
-    <AppContainer appBar={<AppBar title={'Home'}/>}>
+    <AppContainer appBar={<AppBar title={'String Manipulation'}/>}>
       <View style={styles.container}>
         <KeyboardAvoidingView behavior={Platform.OS === "ios" ? "padding" : "height"} style={styles.textInputView}>
           <View style={styles.textInputContainer}>
@@ -84,6 +84,6 @@ const styles = StyleSheet.create({
     marginTop: 16
   },
   buttonView: {
-    marginTop: 8,
+    marginBottom: 8,
   }
 });
